@@ -2,14 +2,42 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Document</title>
+  <title>OnlyNumber</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+  <style>
+    .container{
+      margin-top: 50px;
+      width: 400px
+    }
+    #input-number{
+      margin-bottom: 20px;
+    }
+  </style>
 </head>
 <body>
-  <input type="text" id="input-number">
+  <div class="container text-right">
+    <h2>DEMO</h2>
+
+    <input type="text" id="input-number" class="form-control" placeholder="Digite algo...">
+    <button id="activePlug" class="btn btn-primary">Active Plug-in</button>
+    <button id="removePlug" class="btn btn-danger">Remove Plug-in</button>
+  </div>
+
+  <div class="container">
+    <h2>DOC</h2>
+    <script src="https://gist.github.com/guidiego/7314e04c5663964f2505.js"></script>
+  </div>
+
   <script src="jquery.min.js" charset="utf-8"></script>
-  <script src="onlynumbers.js" charset="utf-8"></script>
+  <script src="jquery.onlynumbers.1-0.min.js" charset="utf-8"></script>
   <script type="text/javascript">
-    $("#input-number").onlynumbers();
+    $("#activePlug").on("click", function () {
+      $("#input-number").onlynumbers();
+    });
+
+    $("#removePlug").on("click", function () {
+      $("#input-number").onlynumbers("destroy");
+    });
   </script>
 </body>
 </html>

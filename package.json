@@ -1,0 +1,27 @@
+{
+  "name": "jq-onlynumber-plugin",
+  "version": "1.0.0",
+  "description": "A simple NumberValidate Plugin",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/guidiego/jq-onlynumber-plugin.git"
+  },
+  "keywords": [
+    "jquery"
+  ],
+  "author": "Guilherme Diego",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/guidiego/jq-onlynumber-plugin/issues"
+  },
+  "homepage": "https://github.com/guidiego/jq-onlynumber-plugin#readme",
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-uglify": "^1.4.1"
+  }
+}
