@@ -1,5 +1,5 @@
 # OnlyNumber Plugin
-Um simples plugin em JQuery para restrição de cmapo apenas para numero. [Demo](guidiego.github.io/jq-onlynumber-plugin)
+Um simples plugin em JQuery para restrição de cmapo apenas para numero. [Demo](https://guidiego.github.io/jq-onlynumber-plugin)
 
 # Instalando
 Importe o arquivo **jquery.onlynumbers.1-0.min.js** para sua aplicação.
